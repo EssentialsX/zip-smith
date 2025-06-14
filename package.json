@@ -1,0 +1,19 @@
+{
+	"name": "zip-smith",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"cf-typegen": "wrangler types"
+	},
+	"dependencies": {
+		"@zip.js/zip.js": "^2.7.62"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.8.19",
+		"typescript": "^5.5.2",
+		"wrangler": "^4.20.0"
+	}
+}
