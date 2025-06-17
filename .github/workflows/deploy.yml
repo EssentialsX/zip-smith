@@ -15,3 +15,4 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           packageManager: bun
+          wranglerVersion: 4.20.0
